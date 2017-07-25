@@ -2,7 +2,8 @@
 
 Project description
 
-Technology: R programming , Python
+Technology: R programming
+	    Python
 
 Classifiers & Techniques used: 
 1) Random forest
