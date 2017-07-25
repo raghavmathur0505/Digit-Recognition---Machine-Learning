@@ -1,0 +1,280 @@
+Experiment: 1 
+	Fold 1
+	Accuracy: 0.75
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.97
+	Fold 2
+	Accuracy: 0.74
+	Precision: 0.79
+	Recall: 0.74
+	Auc: 0.97
+	Fold 3
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.97
+	Fold 4
+	Accuracy: 0.73
+	Precision: 0.80
+	Recall: 0.73
+	Auc: 0.97
+	Fold 5
+	Accuracy: 0.75
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.98
+	Fold 6
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.73
+	Auc: 0.97
+	Fold 7
+	Accuracy: 0.73
+	Precision: 0.79
+	Recall: 0.73
+	Auc: 0.97
+	Fold 8
+	Accuracy: 0.73
+	Precision: 0.80
+	Recall: 0.73
+	Auc: 0.97
+	Fold 9
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.73
+	Auc: 0.98
+	Fold 10
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.73
+	Auc: 0.97
+Mean
+Accuracy: 0.74
+Precision: 0.80
+Recall: 0.73
+Auc: 0.97
+Experiment: 2 
+	Fold 1
+	Accuracy: 0.74
+	Precision: 0.79
+	Recall: 0.74
+	Auc: 0.97
+	Fold 2
+	Accuracy: 0.75
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.97
+	Fold 3
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.73
+	Auc: 0.98
+	Fold 4
+	Accuracy: 0.73
+	Precision: 0.79
+	Recall: 0.73
+	Auc: 0.97
+	Fold 5
+	Accuracy: 0.73
+	Precision: 0.79
+	Recall: 0.72
+	Auc: 0.97
+	Fold 6
+	Accuracy: 0.74
+	Precision: 0.79
+	Recall: 0.73
+	Auc: 0.97
+	Fold 7
+	Accuracy: 0.72
+	Precision: 0.78
+	Recall: 0.71
+	Auc: 0.97
+	Fold 8
+	Accuracy: 0.73
+	Precision: 0.80
+	Recall: 0.72
+	Auc: 0.97
+	Fold 9
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.97
+	Fold 10
+	Accuracy: 0.74
+	Precision: 0.81
+	Recall: 0.73
+	Auc: 0.97
+Mean
+Accuracy: 0.74
+Precision: 0.80
+Recall: 0.73
+Auc: 0.97
+Experiment: 3 
+	Fold 1
+	Accuracy: 0.80
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 2
+	Accuracy: 0.80
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 3
+	Accuracy: 0.80
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 4
+	Accuracy: 0.79
+	Precision: 0.83
+	Recall: 0.79
+	Auc: 0.98
+	Fold 5
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.78
+	Auc: 0.98
+	Fold 6
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 7
+	Accuracy: 0.79
+	Precision: 0.81
+	Recall: 0.78
+	Auc: 0.98
+	Fold 8
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 9
+	Accuracy: 0.80
+	Precision: 0.83
+	Recall: 0.79
+	Auc: 0.98
+	Fold 10
+	Accuracy: 0.80
+	Precision: 0.83
+	Recall: 0.79
+	Auc: 0.98
+Mean
+Accuracy: 0.79
+Precision: 0.82
+Recall: 0.79
+Auc: 0.98
+Experiment: 4 
+	Fold 1
+	Accuracy: 0.73
+	Precision: 0.79
+	Recall: 0.72
+	Auc: 0.97
+	Fold 2
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.97
+	Fold 3
+	Accuracy: 0.75
+	Precision: 0.80
+	Recall: 0.75
+	Auc: 0.98
+	Fold 4
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.73
+	Auc: 0.97
+	Fold 5
+	Accuracy: 0.75
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.98
+	Fold 6
+	Accuracy: 0.75
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.97
+	Fold 7
+	Accuracy: 0.73
+	Precision: 0.78
+	Recall: 0.73
+	Auc: 0.98
+	Fold 8
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.97
+	Fold 9
+	Accuracy: 0.74
+	Precision: 0.80
+	Recall: 0.74
+	Auc: 0.98
+	Fold 10
+	Accuracy: 0.75
+	Precision: 0.81
+	Recall: 0.74
+	Auc: 0.97
+Mean
+Accuracy: 0.74
+Precision: 0.80
+Recall: 0.74
+Auc: 0.98
+Experiment: 5 
+	Fold 1
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 2
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.78
+	Auc: 0.98
+	Fold 3
+	Accuracy: 0.80
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 4
+	Accuracy: 0.79
+	Precision: 0.83
+	Recall: 0.79
+	Auc: 0.98
+	Fold 5
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.78
+	Auc: 0.98
+	Fold 6
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 7
+	Accuracy: 0.79
+	Precision: 0.81
+	Recall: 0.78
+	Auc: 0.98
+	Fold 8
+	Accuracy: 0.79
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 9
+	Accuracy: 0.80
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+	Fold 10
+	Accuracy: 0.80
+	Precision: 0.82
+	Recall: 0.79
+	Auc: 0.98
+Mean
+Accuracy: 0.79
+Precision: 0.82
+Recall: 0.79
+Auc: 0.98
