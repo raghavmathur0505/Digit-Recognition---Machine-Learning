@@ -1,0 +1,500 @@
+Fold  1 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 406   0   6   2   1   5   5   3   0  10
+         1   0 383   0   1   1   1   1   1   4   2
+         2   3   6 382  24   2   3   3   7  15   0
+         3   0  15   3 380   4  11   0   3   2   5
+         4   1  40   1   2 425   1   8   4   2  11
+         5   2   0   1   2   0 344   7   1   5   6
+         6   3   1   3   1   2   5 366   0   0   0
+         7   0  25   6   6   1   1   0 391   1   6
+         8   8   5   3   7   1   7   4   2 366   3
+         9   0   2   2   7  14   2   0  11  16 359
+
+Overall Statistics
+                                         
+               Accuracy : 0.9052         
+                 95% CI : (0.896, 0.9139)
+    No Information Rate : 0.1136         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8947         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95981  0.80294  0.93857  0.87963   0.9424  0.90526
+Specificity           0.99153  0.99705  0.98339  0.98859   0.9813  0.99372
+Pos Pred Value        0.92694  0.97208  0.85843  0.89835   0.8586  0.93478
+Neg Pred Value        0.99548  0.97530  0.99334  0.98623   0.9930  0.99061
+Prevalence            0.10071  0.11357  0.09690  0.10286   0.1074  0.09048
+Detection Rate        0.09667  0.09119  0.09095  0.09048   0.1012  0.08190
+Detection Prevalence  0.10429  0.09381  0.10595  0.10071   0.1179  0.08762
+Balanced Accuracy     0.97567  0.89999  0.96098  0.93411   0.9618  0.94949
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.92893   0.9243  0.89051  0.89303
+Specificity           0.99606   0.9878  0.98944  0.98578
+Pos Pred Value        0.96063   0.8947  0.90148  0.86925
+Neg Pred Value        0.99267   0.9915  0.98814  0.98865
+Prevalence            0.09381   0.1007  0.09786  0.09571
+Detection Rate        0.08714   0.0931  0.08714  0.08548
+Detection Prevalence  0.09071   0.1040  0.09667  0.09833
+Balanced Accuracy     0.96250   0.9561  0.93998  0.93941
+
+Precision =  0.9075256
+Recall =  0.9065394
+----------------------------------------------------------------------------------------------
+Fold  2 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 405   0   4   1   4   2   1   0   1   8
+         1   0 388   2   0   0   1   1   0   5   0
+         2   0   7 380   9   7   6   3   6   4   1
+         3   0  18   5 391   2   3   0   4   6   1
+         4   0  29   3   0 365   1   2   2   2  19
+         5   9   0   0   4   4 361   1   1   6   6
+         6   8   2   0   1   1   7 397   0   2   0
+         7   0  16   5   6   2   1   0 403   2   5
+         8  12   6   8   7   8   8   4   0 394   1
+         9   0   3   1   1  14   4   0  13  16 351
+
+Overall Statistics
+                                          
+               Accuracy : 0.9131          
+                 95% CI : (0.9042, 0.9214)
+    No Information Rate : 0.1117          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9034          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.93318  0.82729  0.93137   0.9310   0.8968  0.91624
+Specificity           0.99442  0.99759  0.98866   0.9897   0.9847  0.99185
+Pos Pred Value        0.95070  0.97733  0.89835   0.9093   0.8629  0.92092
+Neg Pred Value        0.99232  0.97870  0.99259   0.9923   0.9889  0.99133
+Prevalence            0.10333  0.11167  0.09714   0.1000   0.0969  0.09381
+Detection Rate        0.09643  0.09238  0.09048   0.0931   0.0869  0.08595
+Detection Prevalence  0.10143  0.09452  0.10071   0.1024   0.1007  0.09333
+Balanced Accuracy     0.96380  0.91244  0.96002   0.9603   0.9408  0.95405
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.97066  0.93939  0.89954  0.89541
+Specificity           0.99446  0.99019  0.98565  0.98634
+Pos Pred Value        0.94976  0.91591  0.87946  0.87097
+Neg Pred Value        0.99683  0.99309  0.98827  0.98920
+Prevalence            0.09738  0.10214  0.10429  0.09333
+Detection Rate        0.09452  0.09595  0.09381  0.08357
+Detection Prevalence  0.09952  0.10476  0.10667  0.09595
+Balanced Accuracy     0.98256  0.96479  0.94259  0.94088
+
+Precision =  0.9135586
+Recall =  0.9140852
+----------------------------------------------------------------------------------------------
+Fold  3 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 397   0   4   1   1   4   2   1   2   7
+         1   0 377   0   0   1   0   1   0   3   1
+         2   1   6 404  17   2   3   2   7   8   1
+         3   0  20   1 390   1   8   0   3   7   6
+         4   0  32   0   0 376   0   1   1   3   9
+         5   3   0   0   4   1 315   4   1   4   4
+         6   5   0   1   0   2   3 393   0   3   1
+         7   0  23   2   5   3   1   0 423   1   7
+         8   8   9   7   4   4   4   9   2 378   2
+         9   0   2   0   5  15   1   0  16  13 401
+
+Overall Statistics
+                                          
+               Accuracy : 0.9176          
+                 95% CI : (0.9089, 0.9258)
+    No Information Rate : 0.1117          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9084          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95894  0.80384  0.96420  0.91549  0.92611  0.92920
+Specificity           0.99419  0.99839  0.98757  0.98781  0.98788  0.99456
+Pos Pred Value        0.94749  0.98433  0.89579  0.89450  0.89100  0.93750
+Neg Pred Value        0.99550  0.97590  0.99600  0.99044  0.99206  0.99379
+Prevalence            0.09857  0.11167  0.09976  0.10143  0.09667  0.08071
+Detection Rate        0.09452  0.08976  0.09619  0.09286  0.08952  0.07500
+Detection Prevalence  0.09976  0.09119  0.10738  0.10381  0.10048  0.08000
+Balanced Accuracy     0.97656  0.90111  0.97588  0.95165  0.95699  0.96188
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.95388   0.9317   0.8957  0.91344
+Specificity           0.99604   0.9888   0.9870  0.98617
+Pos Pred Value        0.96324   0.9097   0.8852  0.88521
+Neg Pred Value        0.99499   0.9917   0.9883  0.98986
+Prevalence            0.09810   0.1081   0.1005  0.10452
+Detection Rate        0.09357   0.1007   0.0900  0.09548
+Detection Prevalence  0.09714   0.1107   0.1017  0.10786
+Balanced Accuracy     0.97496   0.9603   0.9414  0.94981
+
+Precision =  0.9193974
+Recall =  0.9192556
+----------------------------------------------------------------------------------------------
+Fold  4 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 416   0   4   1   2   5   3   1   2   1
+         1   1 365   1   1   0   0   3   0   3   0
+         2   2   7 388  11   3   1   2   5  14   1
+         3   0  16   2 425   2   9   1   7   4  12
+         4   0  42   3   0 352   1   1   4   1  11
+         5   1   0   0   5   4 372   4   1   2   4
+         6   0   0   2   0   2   7 392   0   4   0
+         7   1  16   2   5   2   0   0 417   2   6
+         8  12   2   4   8   7  11   6   0 327   2
+         9   0   3   2   6  24   1   1   7  17 373
+
+Overall Statistics
+                                          
+               Accuracy : 0.9112          
+                 95% CI : (0.9022, 0.9196)
+    No Information Rate : 0.11            
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9013          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.96074  0.80931  0.95098   0.9199  0.88442  0.91400
+Specificity           0.99496  0.99760  0.98787   0.9858  0.98343  0.99446
+Pos Pred Value        0.95632  0.97594  0.89401   0.8891  0.84819  0.94656
+Neg Pred Value        0.99548  0.97752  0.99469   0.9901  0.98785  0.99081
+Prevalence            0.10310  0.10738  0.09714   0.1100  0.09476  0.09690
+Detection Rate        0.09905  0.08690  0.09238   0.1012  0.08381  0.08857
+Detection Prevalence  0.10357  0.08905  0.10333   0.1138  0.09881  0.09357
+Balanced Accuracy     0.97785  0.90346  0.96942   0.9529  0.93393  0.95423
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.94915  0.94344  0.86968  0.90976
+Specificity           0.99604  0.99095  0.98640  0.98391
+Pos Pred Value        0.96314  0.92461  0.86280  0.85945
+Neg Pred Value        0.99446  0.99333  0.98718  0.99018
+Prevalence            0.09833  0.10524  0.08952  0.09762
+Detection Rate        0.09333  0.09929  0.07786  0.08881
+Detection Prevalence  0.09690  0.10738  0.09024  0.10333
+Balanced Accuracy     0.97260  0.96720  0.92804  0.94683
+
+Precision =  0.9120147
+Recall =  0.9111401
+----------------------------------------------------------------------------------------------
+Fold  5 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 396   0   4   1   2   3   2   2   2   3
+         1   1 420   1   0   2   0   2   1   3   1
+         2   0   6 391  15   2   1   6  10   9   3
+         3   0   7   4 390   0   7   1   4   5   3
+         4   0  22   3   0 388   1   4   2   2   8
+         5   0   1   0   2   0 316   6   0   5   6
+         6   1   0   0   1   1   4 406   0   4   0
+         7   0  12   7   7   4   2   0 421   3   9
+         8  15   5   4   8   3   5   6   3 356   4
+         9   0   3   4   9  18   2   0  19  16 362
+
+Overall Statistics
+                                          
+               Accuracy : 0.9157          
+                 95% CI : (0.9069, 0.9239)
+    No Information Rate : 0.1133          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9063          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95884   0.8824  0.93541  0.90069  0.92381  0.92669
+Specificity           0.99498   0.9970  0.98625  0.99177  0.98889  0.99482
+Pos Pred Value        0.95422   0.9745  0.88262  0.92637  0.90233  0.94048
+Neg Pred Value        0.99551   0.9851  0.99281  0.98862  0.99151  0.99353
+Prevalence            0.09833   0.1133  0.09952  0.10310  0.10000  0.08119
+Detection Rate        0.09429   0.1000  0.09310  0.09286  0.09238  0.07524
+Detection Prevalence  0.09881   0.1026  0.10548  0.10024  0.10238  0.08000
+Balanced Accuracy     0.97691   0.9397  0.96083  0.94623  0.95635  0.96075
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.93764   0.9113  0.87901  0.90727
+Specificity           0.99708   0.9882  0.98603  0.98132
+Pos Pred Value        0.97362   0.9054  0.87042  0.83603
+Neg Pred Value        0.99286   0.9890  0.98707  0.99018
+Prevalence            0.10310   0.1100  0.09643  0.09500
+Detection Rate        0.09667   0.1002  0.08476  0.08619
+Detection Prevalence  0.09929   0.1107  0.09738  0.10310
+Balanced Accuracy     0.96736   0.9497  0.93252  0.94429
+
+Precision =  0.9165922
+Recall =  0.9162966
+----------------------------------------------------------------------------------------------
+Fold  6 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 398   0   3   1   3   5   2   2   0   6
+         1   0 397   2   0   0   1   3   0   4   0
+         2   0   6 409  16   3   5   6   6   8   2
+         3   0  17   3 400   1  15   0   3   5   9
+         4   0  30   0   1 327   0   3   0   2  11
+         5   2   0   0   2   2 379   4   1   2   3
+         6   2   0   0   0   7   5 384   0   6   0
+         7   0  16   3   4   1   0   0 400   1   7
+         8  13   2   2   5   3   7   8   1 361   2
+         9   0   2   1   2  25   1   1  17  11 390
+
+Overall Statistics
+                                          
+               Accuracy : 0.9155          
+                 95% CI : (0.9067, 0.9237)
+    No Information Rate : 0.1119          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9061          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95904  0.84468  0.96690  0.92807  0.87903  0.90670
+Specificity           0.99419  0.99732  0.98623  0.98594  0.98772  0.99577
+Pos Pred Value        0.94762  0.97543  0.88720  0.88300  0.87433  0.95949
+Neg Pred Value        0.99550  0.98075  0.99626  0.99173  0.98824  0.98975
+Prevalence            0.09881  0.11190  0.10071  0.10262  0.08857  0.09952
+Detection Rate        0.09476  0.09452  0.09738  0.09524  0.07786  0.09024
+Detection Prevalence  0.10000  0.09690  0.10976  0.10786  0.08905  0.09405
+Balanced Accuracy     0.97661  0.92100  0.97657  0.95701  0.93338  0.95123
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.93431  0.93023  0.90250  0.90698
+Specificity           0.99472  0.99151  0.98868  0.98408
+Pos Pred Value        0.95050  0.92593  0.89356  0.86667
+Neg Pred Value        0.99289  0.99204  0.98973  0.98933
+Prevalence            0.09786  0.10238  0.09524  0.10238
+Detection Rate        0.09143  0.09524  0.08595  0.09286
+Detection Prevalence  0.09619  0.10286  0.09619  0.10714
+Balanced Accuracy     0.96451  0.96087  0.94559  0.94553
+
+Precision =  0.916373
+Recall =  0.9158441
+----------------------------------------------------------------------------------------------
+Fold  7 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 377   0   2   5   1   5   1   2   1   6
+         1   0 381   0   1   1   0   3   1   3   0
+         2   2   3 379  12   4   1   4   2  11   0
+         3   1  17   3 430   4  10   0   3   5   6
+         4   0  31   2   1 367   1   2   5   2  14
+         5   5   1   0   3   2 376  10   0   2   7
+         6   4   0   0   0   3   4 352   0   3   0
+         7   0  25   3   4   2   2   0 426   0   8
+         8   7   2   9  12   7   8  10   0 334   7
+         9   0   5   4   8  23   2   0  17  16 375
+
+Overall Statistics
+                                          
+               Accuracy : 0.904           
+                 95% CI : (0.8947, 0.9128)
+    No Information Rate : 0.1133          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.8933          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95202  0.81935  0.94279   0.9034  0.88647  0.91932
+Specificity           0.99395  0.99759  0.98973   0.9868  0.98468  0.99209
+Pos Pred Value        0.94250  0.97692  0.90670   0.8977  0.86353  0.92611
+Neg Pred Value        0.99500  0.97795  0.99392   0.9876  0.98755  0.99130
+Prevalence            0.09429  0.11071  0.09571   0.1133  0.09857  0.09738
+Detection Rate        0.08976  0.09071  0.09024   0.1024  0.08738  0.08952
+Detection Prevalence  0.09524  0.09286  0.09952   0.1140  0.10119  0.09667
+Balanced Accuracy     0.97299  0.90847  0.96626   0.9451  0.93558  0.95570
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.92147   0.9342  0.88594  0.88652
+Specificity           0.99633   0.9882  0.98378  0.98014
+Pos Pred Value        0.96175   0.9064  0.84343  0.83333
+Neg Pred Value        0.99218   0.9920  0.98870  0.98720
+Prevalence            0.09095   0.1086  0.08976  0.10071
+Detection Rate        0.08381   0.1014  0.07952  0.08929
+Detection Prevalence  0.08714   0.1119  0.09429  0.10714
+Balanced Accuracy     0.95890   0.9612  0.93486  0.93333
+
+Precision =  0.9058362
+Recall =  0.9051454
+----------------------------------------------------------------------------------------------
+Fold  8 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 387   0   4   1   1   4   6   3   1   8
+         1   0 376   1   1   0   1   4   1   2   1
+         2   3   6 433  16   7   3   2   5   5   1
+         3   1  15   5 411   3  10   0   0   3   3
+         4   0  30   2   0 376   1   1   2   3  18
+         5   4   1   2   6   2 321   2   0   4   7
+         6   1   0   2   1   1   5 389   0   1   0
+         7   0   7   4   7   1   0   0 408   2   3
+         8  11   5   1  10   5   3   9   0 362   3
+         9   0   4   2   3  12   3   1  20  19 379
+
+Overall Statistics
+                                         
+               Accuracy : 0.9148         
+                 95% CI : (0.9059, 0.923)
+    No Information Rate : 0.1086         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.9052         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95086  0.84685   0.9496  0.90132  0.92157  0.91453
+Specificity           0.99262  0.99707   0.9872  0.98932  0.98497  0.99273
+Pos Pred Value        0.93253  0.97158   0.9002  0.91131  0.86836  0.91977
+Neg Pred Value        0.99472  0.98217   0.9938  0.98800  0.99151  0.99221
+Prevalence            0.09690  0.10571   0.1086  0.10857  0.09714  0.08357
+Detection Rate        0.09214  0.08952   0.1031  0.09786  0.08952  0.07643
+Detection Prevalence  0.09881  0.09214   0.1145  0.10738  0.10310  0.08310
+Balanced Accuracy     0.97174  0.92196   0.9684  0.94532  0.95327  0.95363
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.93961  0.92938  0.90050  0.89598
+Specificity           0.99709  0.99362  0.98763  0.98306
+Pos Pred Value        0.97250  0.94444  0.88509  0.85553
+Neg Pred Value        0.99342  0.99177  0.98945  0.98829
+Prevalence            0.09857  0.10452  0.09571  0.10071
+Detection Rate        0.09262  0.09714  0.08619  0.09024
+Detection Prevalence  0.09524  0.10286  0.09738  0.10548
+Balanced Accuracy     0.96835  0.96150  0.94406  0.93952
+
+Precision =  0.9161314
+Recall =  0.915016
+----------------------------------------------------------------------------------------------
+Fold  9 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 375   0   6   4   2   2   3   2   1   1
+         1   1 367   2   0   1   3   0   1   6   0
+         2   2   3 398  12   7   2   1   6  10   2
+         3   0  18   2 355   3  10   1   1  10   8
+         4   1  49   2   0 375   0   4   3   3  17
+         5   1   0   0   4   1 373   3   1   3   4
+         6   2   0   1   4   3   2 402   0   3   1
+         7   0  24   3   7   1   0   0 414   4  11
+         8  11   6   7   8   4   4   4   2 339   2
+         9   1   0   1   4  21   6   0  11  23 392
+
+Overall Statistics
+                                         
+               Accuracy : 0.9024         
+                 95% CI : (0.893, 0.9112)
+    No Information Rate : 0.1112         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8915         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95178  0.78587  0.94313  0.89196  0.89713  0.92786
+Specificity           0.99448  0.99625  0.98809  0.98606  0.97911  0.99552
+Pos Pred Value        0.94697  0.96325  0.89842  0.87010  0.82599  0.95641
+Neg Pred Value        0.99501  0.97382  0.99361  0.98866  0.98852  0.99239
+Prevalence            0.09381  0.11119  0.10048  0.09476  0.09952  0.09571
+Detection Rate        0.08929  0.08738  0.09476  0.08452  0.08929  0.08881
+Detection Prevalence  0.09429  0.09071  0.10548  0.09714  0.10810  0.09286
+Balanced Accuracy     0.97313  0.89106  0.96561  0.93901  0.93812  0.96169
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity           0.96172  0.93878  0.84328  0.89498
+Specificity           0.99577  0.98670  0.98736  0.98219
+Pos Pred Value        0.96172  0.89224  0.87597  0.85403
+Neg Pred Value        0.99577  0.99277  0.98348  0.98770
+Prevalence            0.09952  0.10500  0.09571  0.10429
+Detection Rate        0.09571  0.09857  0.08071  0.09333
+Detection Prevalence  0.09952  0.11048  0.09214  0.10929
+Balanced Accuracy     0.97875  0.96274  0.91532  0.93858
+
+Precision =  0.9045107
+Recall =  0.903648
+----------------------------------------------------------------------------------------------
+Fold  10 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1   2   3   4   5   6   7   8   9
+         0 384   0   1   1   2   1   1   5   3   6
+         1   0 393   1   0   0   2   6   1   8   1
+         2   0   5 394  19   1   5   5   6  12   1
+         3   2  21   3 375   1   7   1   3   6   4
+         4   1  39   4   1 349   1   3   0   8   9
+         5   5   1   1   2   0 331   7   2   4   7
+         6   2   1   1   1   2   3 425   0   3   0
+         7   0  32   4   4   2   0   0 393   1   6
+         8   9   4   2  11   1   4   3   1 371   4
+         9   0   0   3   3  20   0   0  14  14 394
+
+Overall Statistics
+                                          
+               Accuracy : 0.9069          
+                 95% CI : (0.8977, 0.9155)
+    No Information Rate : 0.1181          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.8965          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: 0 Class: 1 Class: 2 Class: 3 Class: 4 Class: 5
+Sensitivity           0.95285  0.79234  0.95169  0.89928  0.92328  0.93503
+Specificity           0.99473  0.99487  0.98574  0.98731  0.98273  0.99246
+Pos Pred Value        0.95050  0.95388  0.87946  0.88652  0.84096  0.91944
+Neg Pred Value        0.99499  0.97281  0.99467  0.98888  0.99234  0.99401
+Prevalence            0.09595  0.11810  0.09857  0.09929  0.09000  0.08429
+Detection Rate        0.09143  0.09357  0.09381  0.08929  0.08310  0.07881
+Detection Prevalence  0.09619  0.09810  0.10667  0.10071  0.09881  0.08571
+Balanced Accuracy     0.97379  0.89360  0.96871  0.94330  0.95301  0.96374
+                     Class: 6 Class: 7 Class: 8 Class: 9
+Sensitivity            0.9424  0.92471  0.86279  0.91204
+Specificity            0.9965  0.98702  0.98966  0.98567
+Pos Pred Value         0.9703  0.88914  0.90488  0.87946
+Neg Pred Value         0.9931  0.99148  0.98443  0.98987
+Prevalence             0.1074  0.10119  0.10238  0.10286
+Detection Rate         0.1012  0.09357  0.08833  0.09381
+Detection Prevalence   0.1043  0.10524  0.09762  0.10667
+Balanced Accuracy      0.9694  0.95586  0.92622  0.94885
+
+Precision =  0.9074578
+Recall =  0.9096356
+----------------------------------------------------------------------------------------------
